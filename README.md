@@ -1,4 +1,4 @@
-Careadi Platform - v3
+Careadi Platform
 
 Careadi is a standalone intake management platform for healthcare teams. It supports referral tracking, intake coordination, initial assessments, and operational visibility across multiple clinic locations.
 
