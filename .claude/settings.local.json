@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/zdom9/Desktop/Projects/**)",
+      "Read(//c/Users/zdom9/Desktop/**)",
+      "Bash(node -e \"const c = require\\('crypto'\\); console.log\\(typeof c.randomUUID\\)\")",
+      "Bash(npm install *)",
+      "Bash(node --check index.js)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:api.github.com)",
+      "Read(//c/Users/zdom9/**)",
+      "Bash(xargs grep *)",
+      "Bash(grep -E \"\\\\.\\(sql|ts|js\\)$\")",
+      "Bash(xargs cat *)",
+      "Bash(npm run *)",
+      "Bash(Get-ChildItem -Path \"c:\\\\Users\\\\zdom9\\\\Desktop\\\\Projects\\\\bsom-intake-portal-v3\" -Recurse -Include \"*.jsx\", \"*.js\")",
+      "Bash(Select-Object -First 40 FullName)",
+      "Bash(xargs ls *)",
+      "PowerShell(head -20)",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\zdom9\\\\Desktop\" -Recurse -Filter \"index.js\" -ErrorAction SilentlyContinue | Where-Object { $_.FullName -notmatch \"node_modules\" } | Select-Object FullName)",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\zdom9\" -Recurse -Filter \"index.js\" -Depth 6 -ErrorAction SilentlyContinue | Where-Object { $_.FullName -notmatch \"node_modules\" } | Select-Object FullName)",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\zdom9\\\\Documents\" -Recurse -Filter \"index.js\" -Depth 8 -ErrorAction SilentlyContinue | Where-Object { $_.FullName -notmatch \"node_modules\" } | Select-Object FullName)",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\zdom9\" -Directory -Depth 2 -ErrorAction SilentlyContinue | Where-Object { $_.Name -match \"bsom|intake|portal|backend|server|api|apprunner|express\" -and $_.FullName -notmatch \"node_modules\" } | Select-Object FullName)",
+      "Bash(\\\\.jsx\")"
+    ]
+  }
+}
