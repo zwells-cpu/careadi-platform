@@ -1,6 +1,6 @@
-BSOM Intake Portal — v3
+Careadi Platform - v3
 
-The BSOM Intake Portal is a centralized intake operations platform designed to support referral tracking, intake coordination, initial assessments, and operational visibility across multiple clinic locations.
+Careadi is a standalone intake management platform for healthcare teams. It supports referral tracking, intake coordination, initial assessments, and operational visibility across multiple clinic locations.
 
 Originally introduced to evolve beyond spreadsheet-based workflows adopted in August 2024, the portal transitions intake management from manual tracking to a structured, stage-based system.
 
@@ -14,7 +14,7 @@ Improved operational reporting and performance insight
 Before: Spreadsheet-based tracking
 After: Structured intake operations system
 
-Developed independently by Zanteria Wells as an internal operations solution.
+Developed independently by Zanteria Wells as a healthcare intake operations solution.
 
 Core Modules
 
@@ -32,8 +32,8 @@ Monitor referral aging, clinic volume, conversion trends, and intake performance
 
 Developer Setup (Internal Use)
 1. Clone and install
-git clone https://github.com/YOUR_USERNAME/bsom-intake-portal.git
-cd bsom-intake-portal
+git clone https://github.com/YOUR_USERNAME/careadi-platform.git
+cd careadi-platform
 npm install
 2. Configure environment
 

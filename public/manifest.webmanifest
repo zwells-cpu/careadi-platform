@@ -1,7 +1,7 @@
 {
-  "name": "BSOM Intake Portal",
-  "short_name": "BSOM Intake Portal",
-  "description": "BSOM Intake Portal",
+  "name": "Careadi Platform",
+  "short_name": "Careadi",
+  "description": "Careadi intake management platform for healthcare teams",
   "display": "standalone",
   "start_url": ".",
   "scope": ".",
@@ -9,9 +9,9 @@
   "theme_color": "#ffffff",
   "icons": [
     {
-      "src": "/bsom-logo.jpg",
-      "sizes": "500x500",
-      "type": "image/jpeg",
+      "src": "/careadi-logo.svg",
+      "sizes": "120x120",
+      "type": "image/svg+xml",
       "purpose": "any"
     }
   ]

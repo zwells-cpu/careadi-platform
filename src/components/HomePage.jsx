@@ -80,11 +80,11 @@ export function HomePage({
 
         <div className="hp-sidebar-brand">
           <div className="hp-sidebar-logo">
-            <img src="/bsom-logo.jpg" alt="BSOM" />
+            <img src="/careadi-logo.svg" alt="Careadi" />
           </div>
           <div>
-            <div className="hp-sidebar-brand-name">BSOM</div>
-            <div className="hp-sidebar-brand-sub">Intake Portal</div>
+            <div className="hp-sidebar-brand-name">Careadi</div>
+            <div className="hp-sidebar-brand-sub">Platform</div>
           </div>
         </div>
 
@@ -130,8 +130,8 @@ export function HomePage({
 
           {/* Hero */}
           <div className="hp-hero">
-            <div className="hp-eyebrow">Behavioral Solutions of Mississippi</div>
-            <h1 className="hp-title">Intake Portal</h1>
+            <div className="hp-eyebrow">Standalone intake management for healthcare teams</div>
+            <h1 className="hp-title">Careadi Platform</h1>
             {displayName && (
               <p className="hp-greeting">{getGreeting(displayName)}</p>
             )}
@@ -139,8 +139,8 @@ export function HomePage({
 
           {/* Portal modules */}
           <div className="hp-modules">
-            <div className="hp-modules-heading">Portal Modules</div>
-          <div className="hp-modules-helper">Choose a workspace to continue intake operations.</div>
+            <div className="hp-modules-heading">Platform Workspaces</div>
+          <div className="hp-modules-helper">Choose a workspace to manage intake operations.</div>
           <div className="hp-module-grid">
 
               {MODULES.filter(m => m.id !== 'operations' || canAccessOperations(profile)).map(m => {

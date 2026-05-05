@@ -1109,14 +1109,14 @@ export default function App() {
               display: 'flex', alignItems: 'center', justifyContent: 'center',
               overflow: 'hidden',
             }}>
-              <img src="/bsom-logo.jpg" alt="BSOM" style={{ width: 60, height: 60, objectFit: 'contain' }} />
+              <img src="/careadi-logo.svg" alt="Careadi" style={{ width: 60, height: 60, objectFit: 'contain' }} />
             </div>
             <div style={{ textAlign: 'center' }}>
               <div style={{ fontSize: 11, fontWeight: 800, letterSpacing: '0.18em', textTransform: 'uppercase', color: 'var(--accent)', marginBottom: 4 }}>
-                Behavioral Solutions of Mississippi
+                Careadi
               </div>
               <div style={{ fontSize: 20, fontWeight: 800, color: 'var(--text)', letterSpacing: '-0.02em' }}>
-                BSOM Intake Portal
+                Careadi Platform
               </div>
             </div>
           </div>
@@ -1463,7 +1463,7 @@ export default function App() {
             </div>
             <div className="footer-side footer-side-center">
             <span style={{ fontSize: 11, color: 'var(--dim)' }}>
-              © 2026 Behavioral Solutions of Mississippi &nbsp;•&nbsp; Intake Operations Portal developed by Zanteria Wells
+              © 2026 Careadi &nbsp;•&nbsp; Careadi Intake Platform developed by Zanteria Wells
             </span>
             </div>
             <div className="footer-side footer-side-right">

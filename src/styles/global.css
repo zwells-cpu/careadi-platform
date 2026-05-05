@@ -4651,7 +4651,7 @@ tr{ transition:background 0.15s ease, transform 0.08s ease; }
 [data-theme="light"] .btn-action-primary:hover{ background:#4f46e520; }
 [data-theme="light"] .btn-action-secondary{ border-color:var(--border2); color:var(--muted); }
 
-/* Sidebar brand refinement — "BSOM Intake Portal" is longer, so allow slight wrapping */
+/* Sidebar brand refinement for longer product names */
 .sidebar-title{
   font-weight:800;
   font-size:11.5px;

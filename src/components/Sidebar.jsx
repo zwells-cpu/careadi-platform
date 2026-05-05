@@ -15,10 +15,10 @@ export function Sidebar({ module, subpage, setSubpage, goHome, pendingCount, unv
     <aside className="sidebar">
       <div className="sidebar-header sidebar-home-btn" onClick={goHome}>
         <div className="sidebar-logo">
-          <img src="/bsom-logo.jpg" alt="BSOM" onError={e => { e.target.style.display = 'none' }} />
+          <img src="/careadi-logo.svg" alt="Careadi" onError={e => { e.target.style.display = 'none' }} />
         </div>
         <div>
-          <div className="sidebar-title">BSOM Intake Portal</div>
+          <div className="sidebar-title">Careadi Platform</div>
           <div className="sidebar-sub">{m?.name}</div>
         </div>
       </div>
@@ -58,7 +58,7 @@ export function Sidebar({ module, subpage, setSubpage, goHome, pendingCount, unv
       <LaunchWeekSupportCard className="sidebar-support" userContext={supportUserContext} />
 
       <div className="sidebar-footer">
-        <div className="back-btn" onClick={goHome}>{'\u2190'} Back to Portal Home</div>
+        <div className="back-btn" onClick={goHome}>{'\u2190'} Back to Platform Home</div>
       </div>
     </aside>
   )

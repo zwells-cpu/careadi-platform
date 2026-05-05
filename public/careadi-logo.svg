@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
+  <title id="title">Careadi</title>
+  <desc id="desc">Careadi platform logo</desc>
+  <rect width="120" height="120" rx="28" fill="#0f172a"/>
+  <path d="M74.5 33.7c-4.4-2.6-9.5-4-14.8-4-17.1 0-30.3 13.1-30.3 30.3s13.2 30.3 30.3 30.3c5.8 0 11.2-1.6 15.8-4.5" fill="none" stroke="#38bdf8" stroke-width="12" stroke-linecap="round"/>
+  <path d="M59.8 42.7c9.7 0 17.6 7.6 17.6 17.3s-7.9 17.3-17.6 17.3S42.2 69.7 42.2 60s7.9-17.3 17.6-17.3Z" fill="#22c55e" opacity=".95"/>
+  <path d="M82.4 39.6l12.2 20.8-12.2 20.1" fill="none" stroke="#f59e0b" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

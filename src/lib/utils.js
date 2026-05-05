@@ -440,7 +440,7 @@ export function exportCSV(refs) {
   ].join('\n')
   const a = Object.assign(document.createElement('a'), {
     href: URL.createObjectURL(new Blob([csv], { type: 'text/csv' })),
-    download: 'bsom_referrals.csv',
+    download: 'careadi_referrals.csv',
   })
   a.click()
 }
